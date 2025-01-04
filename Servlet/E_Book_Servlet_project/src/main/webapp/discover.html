@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discover - E-Book Servlet Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        .header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .navigation {
+            background: #005bb5;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .navigation a:hover {
+            background: #003f7f;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #0073e6;
+            margin-top: 0;
+        }
+        .content p {
+            line-height: 1.8;
+            font-size: 1.2em;
+        }
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card-item {
+            flex: 1 1 calc(33.333% - 20px);
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .card-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card-item h3 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Discover E-Books</h1>
+    </div>
+    <div class="navigation">
+        <a href="product.jsp">Home</a>
+        <a href="#">Discover</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="content">
+        <h2>Featured E-Books</h2>
+        <p>Explore our handpicked selection of e-books, carefully curated to offer something for everyone. Discover your next favorite read today!</p>
+        <div class="card">
+            <div class="card-item">
+                <img src="images/book1.jpg" alt="Book 1">
+                <h3>The Great Adventure</h3>
+                <p>An exhilarating journey through uncharted territories.</p>
+            </div>
+            <div class="card-item">
+                <img src="images/book2.jpg" alt="Book 2">
+                <h3>Cooking with Love</h3>
+                <p>Delicious recipes to warm your heart and home.</p>
+            </div>
+            <div class="card-item">
+                <img src="images/book3.jpg" alt="Book 3">
+                <h3>Mindfulness Matters</h3>
+                <p>A guide to living in the moment and finding peace.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 E-Book Servlet Project Team. All rights reserved.</p>
+    </div>
+</body>
+</html>
